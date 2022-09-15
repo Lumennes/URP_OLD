@@ -59,4 +59,12 @@ public class LightingSwitcher : MonoBehaviour
 
         treatments[currentIndex].ActivateTreatment(sunTransform);
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            CycleTreatments();
+        }
+    }
 }

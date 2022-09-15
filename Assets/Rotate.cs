@@ -19,8 +19,8 @@ public class Rotate : MonoBehaviour
     {
         if (y == 0)
             return;
-        var newy = vect.y - y;
-        vect = new(0, newy, 0);
-        _transform.Rotate(vect);
+        //var newy = vect.y - y;
+        //vect = new(0, newy, 0);
+        _transform.Rotate(new(0, _transform.localEulerAngles.y - y, 0));
     }
 }
