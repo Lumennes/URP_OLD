@@ -1416,6 +1416,11 @@ PrefabInstance:
       propertyPath: m_DistanceColorSource.m_GradientDirty
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3301083582821543202, guid: 5d66197e7965a35428b4e4ba0e49b049,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8869145088052999001, guid: 5d66197e7965a35428b4e4ba0e49b049,
         type: 3}
       propertyPath: invertY
@@ -18110,6 +18115,11 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1754097538}
     m_Modifications:
+    - target: {fileID: -3542846439334258892, guid: 44d7dd7482d7a074ea5bce823dd0a268,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 699262281, guid: 44d7dd7482d7a074ea5bce823dd0a268, type: 3}
       propertyPath: m_Enabled
       value: 0
