@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Tutorial
+namespace TutorialInfo
 {
 	public class Readme : ScriptableObject
 	{
